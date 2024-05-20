@@ -13,7 +13,7 @@
   
 
 # --INFO
-
+before you can use this you will need to read this as well to download the needed files. (https://github.com/gamedev44/illusionEngine/blob/main/IllusionSDK/Illusion/Extras/FBX%20SDK%20Readme%20doc.txt(
 --DIRECTORY FOLDER STRUCTURE (TRUNCATED FOR BETTER UNDERSTANDING & TO SAVE SIZE ON THIS README LOL)
 
 ALSO WE STILL NEED TO FIX SOME CONFIGURATION LAUNCH OPTIONS AND JSONS AS WELL AS POINTERS BEFORE THIS WILL WORK AGAIN.
