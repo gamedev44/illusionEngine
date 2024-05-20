@@ -14,7 +14,9 @@
 
 # --INFO
 
---DIRECTORY FOLDER STRUCTURE (TRUNCATED FOR BETTER UNDERSTANDING)
+--DIRECTORY FOLDER STRUCTURE (TRUNCATED FOR BETTER UNDERSTANDING & TO SAVE SIZE ON THIS README LOL)
+
+ALSO WE STILL NEED TO FIX SOME CONFIGURATION LAUNCH OPTIONS AND JSONS AS WELL AS POINTERS BEFORE THIS WILL WORK AGAIN.
 
 
 ## RootDir Structure below
@@ -89,11 +91,7 @@ Craft immersive experiences with our game engine, once it releases.
 gamedev44 - Overview  
 gamedev44 has 34 repositories available. Follow their code on GitHub.
 
-
-
-# Illusion Engine v2 - Built using the Primal Engine Bare Framework
-A Game Engine by Mr.Asterisk Following the Primal Framework to later Incorperate a Froxel Based Overhaul Mode and New UI to resemble that of Dreams , Game builder garage , uchronia project bge , or Hammer editor
-
+## Feature's
 At the moment we have the following features:
 -  ability to create a project based on 4 game types: Empty, First Person, Third Person, Top Down
 -  Give a name of the project with a path (there is a default path)
@@ -105,35 +103,11 @@ At the moment we have the following features:
 
 
 
-## todo
+## Todo List
 
-[for: hash-buoy] do as much as you can please its hard to do this on my own because of time limitations.  at least do step 1 please! and confirm its finished.
+Fix a few simple launch configs and pointers and get it back up and showing editor screen so we can continue.
 
-step 1: Change All Reference Ocurrances of the Name Primal To illusion and all instances of PrimalEditor to IllusionEditor making sure when finished to-
-,check for references once more before re-building.
-
-step 2: Implement the Needed GUI Based on the references found in the GUI channel in the R&D Catagory on the discord server (devs only).
-
-step 3: Implement the Needed icons by using https://www.calligraphr.com/en/  to make our custom logos and custom font.
-
-step 4: Implement Primitive shapes via CSG 
-
-step 5: Refine editor functionalities and mechanics like translate adding things like scale recolor etc basing the functionality and features-
-,of the editor on Unreal Engine Whilst Keeping the UI Thats Been Discussed.
-
-step 6: Implement Model Importation
-
-step 7: Refine Open / Create Project UI to be more proffessional in design and functionality
-step 8: watch and follow along starting from here at episode 6 : https://youtube.com/playlist?list=PL85wXcWAp0HU5HIBHRuUWTLxB2UDDC1Fh&si=1Obtgjw0GnhhPhIy
-
-step 9: implement this if you havent already https://github.com/TheGameEngineers/PrimalPlus via following the videos above in the guide before proeeding any further.
-
-
-step 10: Add The necessary Voxel Octree Dependencies & Files Needed and there necessary- 
-,Inlcudes in the corrosponding c# and c++ files making sure to be able to be able to access the octree parameters within the scene via the xaml.cs-
-,Additonally Make sure that when adding a button that can activate the Octree that you ensure to link the button from the xaml.cs to the engine.cpp via editing the .dll-
-
-
-
+after fixing first configs and pointers implement the new Xaml & Associated Xaml.Cs UI files
+ - Found as SceneEditorViewLayout.Xaml and SceneEditorViewLayout.Xaml.cs
  
 
