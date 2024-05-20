@@ -1,0 +1,83 @@
+﻿﻿<UserControl x:Class="illusionEditor.Editors.SceneEditorViewLayout"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:illusionEditor.Editors"
+             xmlns:utl="clr-namespace:illusionEditor.Utilities"
+             mc:Ignorable="d" Focusable="True"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.InputBindings>
+        <KeyBinding Command="{Binding UndoCommand}" Key="Z" Modifiers="Ctrl"/>
+        <KeyBinding Command="{Binding RedoCommand}" Key="Y" Modifiers="Ctrl"/>
+        <KeyBinding Command="{Binding SaveCommand}" Key="S" Modifiers="Ctrl"/>
+    </UserControl.InputBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/> <!-- Menu and Toolbar -->
+            <RowDefinition Height="*"/>   <!-- Main Content Area -->
+            <RowDefinition Height="Auto"/> <!-- File Content Browser -->
+        </Grid.RowDefinitions>
+
+        <!-- Top Menu -->
+        <Menu Grid.Row="0">
+            <MenuItem Header="File">
+                <MenuItem Header="New"/>
+                <MenuItem Header="Open"/>
+                <MenuItem Header="Save"/>
+                <!-- Add more submenu items under File if needed -->
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Header="Undo" Command="{Binding UndoCommand}"/>
+                <MenuItem Header="Redo" Command="{Binding RedoCommand}"/>
+                <!-- Add more submenu items under Edit if needed -->
+            </MenuItem>
+            <MenuItem Header="View">
+                <MenuItem Header="Toggle Dark Mode" Command="{Binding ToggleDarkModeCommand}"/>
+                <!-- More view options can be added here -->
+            </MenuItem>
+            <!-- Add more main menu items (Layout, Add, Settings, etc.) here -->
+        </Menu>
+
+        <!-- Main Content Area: Hierarchy, Viewport, Entity Details -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/> <!-- Hierarchy -->
+                <ColumnDefinition Width="*"/>   <!-- Viewport and Tools -->
+                <ColumnDefinition Width="250"/> <!-- Entity Details -->
+            </Grid.ColumnDefinitions>
+
+            <!-- Hierarchy (Left Panel) -->
+            <Border Grid.Column="0" Background="LightGray" Margin="5">
+                <local:ProjectLayoutView/>
+            </Border>
+
+            <!-- Viewport and Tools (Center Panel) -->
+            <Border Grid.Column="1" Background="Gray" Margin="5">
+                <!-- Placeholder for actual viewport and tool buttons -->
+                <StackPanel>
+                    <TextBlock Text="Viewport Placeholder" VerticalAlignment="Top" HorizontalAlignment="Center" Foreground="White"/>
+                    <!-- Tool buttons (Search, Tools, Model, Animate, Logic) -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                        <Button Content="Search" Margin="5"/>
+                        <Button Content="Tools" Margin="5"/>
+                        <Button Content="Model" Margin="5"/>
+                        <Button Content="Animate" Margin="5"/>
+                        <Button Content="Logic" Margin="5"/>
+                    </StackPanel>
+                    <!-- Placeholder for other viewport content -->
+                </StackPanel>
+            </Border>
+
+            <!-- Entity Details (Right Panel) -->
+            <Border Grid.Column="2" Background="LightGray" Margin="5">
+                <local:GameEntityView/>
+            </Border>
+        </Grid>
+
+        <!-- Bottom Panel: File Content Browser -->
+        <Border Grid.Row="2" Background="DarkGray" Margin="5">
+            <TextBlock Text="File Content Browser Placeholder" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+        </Border>
+    </Grid>
+</UserControl>

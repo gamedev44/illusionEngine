@@ -1,0 +1,45 @@
+﻿  Entity.cpp
+  Script.cpp
+  Transform.cpp
+  ContentLoaderWin32.cpp
+  ContentToEngine.cpp
+  EngineWin32.cpp
+  MainWin32.cpp
+  D3D12Camera.cpp
+  D3D12Content.cpp
+  D3D12Core.cpp
+  D3D12Gpass.cpp
+  D3D12Helpers.cpp
+  D3D12Interface.cpp
+  D3D12Light.cpp
+  D3D12LightCulling.cpp
+  D3D12PostProcess.cpp
+  D3D12Resources.cpp
+  D3D12Shaders.cpp
+  D3D12Surface.cpp
+  D3D12Upload.cpp
+  Renderer.cpp
+  Input.cpp
+  InputWin32.cpp
+  PlatformWin32.cpp
+  Window.cpp
+MSBUILD : error MSB4166: Child node "3" exited prematurely. Shutting down. Diagnostic information may be found in files in "C:\Users\herre\AppData\Local\Temp\MSBuildTempherre\" and will be named MSBuild_*.failure.txt. This location can be changed by setting the MSBUILDDEBUGPATH environment variable to a different directory.
+MSBUILD : error MSB4166: C:\Users\herre\AppData\Local\Temp\MSBuildTempherre\MSBuild_pid-25216_61aaddac49404cce867995e29b6e1506.failure.txt:
+MSBUILD : error MSB4166: UNHANDLED EXCEPTIONS FROM PROCESS 25216:
+MSBUILD : error MSB4166: =====================
+MSBUILD : error MSB4166: 2/14/2024 6:02:23 AM
+MSBUILD : error MSB4166: System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+MSBUILD : error MSB4166:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.SarifToolOutputPipe.ProcessHeader(Byte[] buffer, Int32 bytesRead, Int32 index)
+MSBUILD : error MSB4166:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.SarifToolOutputPipe.ProcessMessage(Byte[] buffer, Int32 bytesRead)
+MSBUILD : error MSB4166:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ToolOutputPipe.ReadPipe(Object stateInfo)
+MSBUILD : error MSB4166: --- End of stack trace from previous location where exception was thrown ---
+MSBUILD : error MSB4166:    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+MSBUILD : error MSB4166:    at Microsoft.Build.Shared.ExceptionHandling.RethrowIfCritical(Exception ex)
+MSBUILD : error MSB4166:    at Microsoft.Build.CPPTasks.TrackedVCToolTask.ToolOutputPipe.ReadPipe(Object stateInfo)
+MSBUILD : error MSB4166:    at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+MSBUILD : error MSB4166:    at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+MSBUILD : error MSB4166:    at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+MSBUILD : error MSB4166:    at System.Threading.ThreadPoolWorkQueue.Dispatch()
+MSBUILD : error MSB4166: ===================
+MSBUILD : error MSB4166: 
+MSBUILD : error MSB4166: 

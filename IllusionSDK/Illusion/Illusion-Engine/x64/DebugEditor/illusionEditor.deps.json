@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "illusionEditor/1.0.0": {
+        "dependencies": {
+          "envdte": "17.3.32804.24",
+          "envdte80": "17.3.32804.24"
+        },
+        "runtime": {
+          "illusionEditor.dll": {}
+        }
+      },
+      "envdte/17.3.32804.24": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Interop": "17.3.32804.24"
+        },
+        "runtime": {
+          "lib/net6.0/envdte.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.3.32804.24"
+          }
+        }
+      },
+      "envdte80/17.3.32804.24": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Interop": "17.3.32804.24"
+        },
+        "runtime": {
+          "lib/net6.0/envdte80.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.3.32804.24"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Interop/17.3.32804.24": {
+        "runtime": {
+          "lib/net6.0/Microsoft.VisualStudio.Interop.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.3.32803.143"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "illusionEditor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "envdte/17.3.32804.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L+rS5cPsN0XYbHoLAIVg58Bt26T1imcT1+yKhwS+BiqZ/8HcFu+OTWoIaL+fJDgWdCmRdk7BN2KRj7yN9VRMGg==",
+      "path": "envdte/17.3.32804.24",
+      "hashPath": "envdte.17.3.32804.24.nupkg.sha512"
+    },
+    "envdte80/17.3.32804.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hmH4ZRrg9luilSiV//GX5Qj2rFmXnR67UbhwT+9mgjlMW5oJ9zp0LeP+ivnYhITmkagNo18B0Kn/ZuSvyGEqDA==",
+      "path": "envdte80/17.3.32804.24",
+      "hashPath": "envdte80.17.3.32804.24.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Interop/17.3.32804.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vAWe0Eg0Pakybw7N3oQvsSsjuFcgjYE/cLctkYk1gPFJ70yx0/akt29zPXfeIVa2XxI22Lvj6imiPddeqV0BAw==",
+      "path": "microsoft.visualstudio.interop/17.3.32804.24",
+      "hashPath": "microsoft.visualstudio.interop.17.3.32804.24.nupkg.sha512"
+    }
+  }
+}

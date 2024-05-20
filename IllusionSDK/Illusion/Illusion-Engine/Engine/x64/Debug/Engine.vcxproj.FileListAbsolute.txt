@@ -1,0 +1,4 @@
+C:\Users\herre\OneDrive\Desktop\ie\IllusionSDK\Illusion\Illusion-Engine\Primal-master\x64\Debug\D3D12\D3D12Core.dll
+C:\Users\herre\OneDrive\Desktop\ie\IllusionSDK\Illusion\Illusion-Engine\Primal-master\x64\Debug\D3D12\D3D12Core.pdb
+C:\Users\herre\OneDrive\Desktop\ie\IllusionSDK\Illusion\Illusion-Engine\Primal-master\x64\Debug\D3D12\D3D12SDKLayers.dll
+C:\Users\herre\OneDrive\Desktop\ie\IllusionSDK\Illusion\Illusion-Engine\Primal-master\x64\Debug\D3D12\D3D12SDKLayers.pdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "HDPc4IgcDFCnQi78oubcyUvi/Cy+p7wk9gE2CAcAADPP6ZSpiDfBiUm66DGSenlmCUbD8JNuUF2t2LKe8fILtg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\herre\\OneDrive\\Desktop\\ie\\IllusionSDK\\Illusion\\Illusion-Engine\\Primal-master\\PrimalEditor\\PrimalEditor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\herre\\.nuget\\packages\\envdte\\17.3.32804.24\\envdte.17.3.32804.24.nupkg.sha512",
+    "C:\\Users\\herre\\.nuget\\packages\\envdte80\\17.3.32804.24\\envdte80.17.3.32804.24.nupkg.sha512",
+    "C:\\Users\\herre\\.nuget\\packages\\microsoft.visualstudio.interop\\17.3.32804.24\\microsoft.visualstudio.interop.17.3.32804.24.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "illusionEditor": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
