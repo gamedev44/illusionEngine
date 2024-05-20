@@ -74,11 +74,10 @@ The culmination of this intricate pipeline results in a unique rendering style, 
 
 Empowering creators to turn dreams into reality!
 
-**Website:** [Visit Website](https://pgd-developments.w3spaces.com/)
+**Website:** [Visit Website](https://pgd-developments.w3spaces.com/index1.html#)
 
-**GitHub:** [GitHub Repository](https://github.com/gamedev44/Illusion-Engine/blob/main/README.md)
+**GitHub:** [GitHub Repository](https://github.com/gamedev44/illusionEngine)
 
-**Discord:** [Join our Discord](https://discord.gg/AxG76TVUJa)
 
 Craft immersive experiences with our game engine, once it releases.
 
